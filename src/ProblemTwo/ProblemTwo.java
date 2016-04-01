@@ -5,21 +5,27 @@ package ProblemTwo;
  */
 public class ProblemTwo {
     public static void main(String[] args){
-        int previous = 0;
-        int current = 1;
-        int next = 2;
-        int answer = 0;
+        long fib1 = 0;
+        long fib2 = 1;
+        long result = fib1 + fib2;
+        long sum = 0;
 
-        do {
-            previous = current;
-            current = next;
-            next = previous + current;
-             if (current % 2 == 0){
-                 answer += current;
-             }
-        }while(answer < 4000000);
+        while (result <= 4000000){
+            if (result % 2 == 0 ){
+                sum += result;
+            }
 
-        System.out.println(answer);
+            fib1 = fib2;
+            fib2 = result;
+            result = fib1 + fib2;
 
+        }
+        System.out.println(sum);
     }
 }
+
+
+
+
+
+
