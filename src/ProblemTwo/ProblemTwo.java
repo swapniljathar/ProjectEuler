@@ -5,10 +5,10 @@ package ProblemTwo;
  */
 public class ProblemTwo {
     public static void main(String[] args){
-        int previous = 2;
-        int current = 3;
-        int next = 5;
-        int answer = 2;
+        int previous = 0;
+        int current = 1;
+        int next = 2;
+        int answer = 0;
 
         do {
             previous = current;
