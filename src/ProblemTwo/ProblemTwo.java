@@ -11,13 +11,16 @@ public class ProblemTwo {
         long sum = 0;
 
         while (result <= 4000000){
-            if (result % 2 == 0 ){
-                sum += result;
-            }
 
             fib1 = fib2;
             fib2 = result;
             result = fib1 + fib2;
+            
+            if (result % 2 == 0 ){
+                sum += result;
+            }
+
+
 
         }
         System.out.println(sum);
