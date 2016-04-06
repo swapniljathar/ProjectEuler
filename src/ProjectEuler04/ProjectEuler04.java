@@ -4,13 +4,12 @@ package ProjectEuler04;
  * Created by Swapnil on 4/6/2016.
  */
 public class ProjectEuler04 {
+    public static void main(String[] args){
+        Problem04 problem = new Problem04();
 
-public static void main(String[] args){
-    Problem04 problem = new Problem04();
-
-    problem.largestPalindrome(10, 100);
-    problem.largestPalindrome(100, 1000);
-}
+        problem.largestPalindrome(10, 100);
+        problem.largestPalindrome(100, 1000);
+    }
 
     private static class Problem04 {
         public void largestPalindrome(int start, int end) {
