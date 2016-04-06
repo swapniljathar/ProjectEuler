@@ -1,9 +1,9 @@
-package ProjectEuler03;
+package ProjectEulerProblem03;
 
 /**
  * Created by Swapnil on 4/6/2016.
  */
-public class ProjectEulerProblem03 {
+public class ProjectEuler03 {
     public static void main(String[] args) {
 
         long number = 600851475143L;

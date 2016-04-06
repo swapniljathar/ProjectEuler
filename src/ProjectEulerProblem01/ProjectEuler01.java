@@ -1,9 +1,9 @@
-package ProblemOne;
+package ProjectEulerProblem01;
 
 /**
  * Created by Swapnil on 3/31/2016.
  */
-public class ProblemOne {
+public class ProjectEuler01 {
     public static void main(String[] args){
         int i = 1;
         int sum = 0;

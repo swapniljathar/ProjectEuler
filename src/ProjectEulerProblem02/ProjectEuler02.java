@@ -1,9 +1,9 @@
-package ProblemTwo;
+package ProjectEulerProblem02;
 
 /**
  * Created by Swapnil on 3/31/2016.
  */
-public class ProblemTwo {
+public class ProjectEuler02 {
     public static void main(String[] args) {
         long fib1 = 0;
         long fib2 = 1;
