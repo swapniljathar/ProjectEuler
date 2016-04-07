@@ -29,3 +29,4 @@ public class ProjectEuler06 {
         return solution * solution;
     }
 }
+
